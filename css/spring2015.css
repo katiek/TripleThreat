@@ -99,6 +99,10 @@
    	font-size: 16px;
    }
 
+   h3 {
+    font-family: 'Raleway', sans-serif;
+   }
+
    blockquote p {
    	font-family: 'Raleway', sans-serif;
    	font-size: 90%;
