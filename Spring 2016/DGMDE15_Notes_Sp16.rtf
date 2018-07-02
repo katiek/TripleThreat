@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fnil\fcharset0 Consolas;\f1\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red0\green0\blue0;\red255\green255\blue255;
+\red146\green26\blue32;\red0\green0\blue194;\red251\green0\blue7;}
+\margl1440\margr1440\vieww14900\viewh9060\viewkind0
+\deftab720
+\pard\pardeftab720\sl448\partightenfactor0
+
+\f0\fs32 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The \'93stuff\'94 written between <script></script> are called statements but in reality they actually are commands. So if you say:\
+ document.getElementByID(\'93demo\'94).innerHTML = \'93Hello Dolly.\'94;\
+you are really saying:\
+Hey JS! In this document, go find the thing I labeled \'93demo\'94 and change it\'92s guts to read \'93Hello Dolly.\'94\
+\
+<script>\
+var x = 5;\
+var y = 6;\
+var z = x + y;\
+document.getElementById("demo").innerHTML = z;\
+</script>\
+\
+Sup JS! Put what Z equals in the guts given I told you what x and y are. \
+\
+Sup KK! 11\
+\
+\pard\pardeftab720\sl450\partightenfactor0
+
+\f1\fs30 \cf3 \cb4 \strokec3 A good practice is to put spaces around operators ( = + - * / ) var x = y + z;\
+\
+Code blocks aka \{\} are used when statements are meant to be executed together for example:\
+\pard\pardeftab720\sl440\partightenfactor0
+
+\f0\fs32 \cf5 \strokec5 function\cf3 \strokec3  myFunction() \{\cb1 \
+\cb4 \'a0\'a0\'a0 document.getElementById(\cf6 \strokec6 "demo"\cf3 \strokec3 ).innerHTML = \cf6 \strokec6 "Hello Dolly."\cf3 \strokec3 ;\cb1 \
+\cb4 \'a0\'a0\'a0 document.getElementById(\cf6 \strokec6 "myDIV"\cf3 \strokec3 ).innerHTML = \cf6 \strokec6 "How are you?"\cf3 \strokec3 ;\cb1 \
+\cb4 \}\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl448\partightenfactor0
+\cf2 \
+When graying out multiple lines of code in JS you use /* before the first letter of the first line and close it with */\
+You can use // before the first letter of one line to gray out the single line of code you can also use // at the end of the line of code to gray out note you may want to jot down about that single line of code\
+\
+x = x + 5\
+In JS, the above line\'92s result is the 
+\f1\fs30 \cf3 \cb4 \strokec3 value of x + 5 placed into x. The value of x is incremented by 5. \'93equal to\'94 is represented in JS as ==
+\f0\fs32 \cf2 \cb1 \strokec2 \
+\
+\pard\pardeftab720\sl450\partightenfactor0
+
+\f1\fs30 \cf0 \outl0\strokewidth0 External scripts cannot contain <script> tags.
+\f0\fs32 \cf2 \outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl448\partightenfactor0
+\cf2 myScript.js\
+\pard\pardeftab720\sl448\partightenfactor0
+\cf3 \cb4 \strokec3 function myFunction() \{\cb1 \
+\cb4 \'a0\'a0\'a0document.getElementById("demo").innerHTML = "Paragraph changed.";\cb1 \
+\cb4 \}\
+\pard\pardeftab720\sl448\partightenfactor0
+\cf2 \cb1 \strokec2 <\cf5 \strokec5 !DOCTYPE\cf3 \cb4 \strokec3  \cf7 \cb1 \strokec7 html\cf2 \strokec2 >\cf3 \strokec3 \
+\cf2 \strokec2 <\cf5 \strokec5 html\cf2 \strokec2 >\cf3 \strokec3 \
+\cf2 \strokec2 <\cf5 \strokec5 body\cf2 \strokec2 >\cf3 \strokec3 \
+\cf2 \strokec2 <\cf5 \strokec5 script\cf3 \cb4 \strokec3  \cf7 \cb1 \strokec7 src=\cf6 \strokec6 "myScript.js"\cf2 \strokec2 ><\cf5 \strokec5 /script\cf2 \strokec2 >\cf3 \strokec3 \
+\cf2 \strokec2 <\cf5 \strokec5 /body\cf2 \strokec2 >\cf3 \strokec3 \
+\cf2 \strokec2 <\cf5 \strokec5 /html\cf2 \strokec2 >\
+\
+}

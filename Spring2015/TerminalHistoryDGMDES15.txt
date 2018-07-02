@@ -1,0 +1,500 @@
+history
+227
+cd Desktop/Gittish/
+git status
+git add Gittish 
+git commit -m "first notes on project Gittish"
+git push origin master
+git status
+git add Gittish_organization 
+git add <Gittish
+ls
+git status
+git add Gittish
+git status
+git commit -m "Gittish update and new file Gittish_organization"
+git status
+git remote -v
+git push origin master
+subl
+ls
+source gitti.sh
+source gitti.sh 
+source gitti.sh 
+source gitti.sh 
+source gitti.sh 
+source gitti.sh 
+git_copy
+git_copy
+source gitti.sh 
+git_copy
+
+git_copy
+source gitti.sh 
+git_copy
+git_copy
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_copy
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+git_add
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+git_add
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+Yes
+subl
+sub
+source /Users/katharinekorngold/Desktop/Gittish 
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_add
+git_add
+open -a "Google Chrome"
+open -a "Google Chrome" www.apple.com
+open -a "Google Chrome" http://www.apple.com
+source /Users/katharinekorngold/Desktop/Gittish/gitti.sh 
+git_copy
+git status
+status
+sub
+pwd
+mv
+cp
+cd
+ls
+cd Desktop
+ls
+cd Stickies
+open -a "Stickies"
+sub
+sub
+npm install -g tessel
+tessel repl
+cd Desktop/tessel-love-fest/
+ls -al
+tessel run tessel.js 
+tessel run tessel.js 
+npm install tessel-gpio-button
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+tessel run button.js
+sub
+cd Desktop
+ls
+cd tessel-love-fest/
+mkdir
+cd climate
+ls
+mkdir climate
+ls
+cd climate
+npm install climate-si7020
+tessel run Tessel_climate.js 
+tessel run Tessel_climate.js 
+tessel run Tessel_climate.js 
+tessel run Tessel_climate.js 
+$ curl https://install.meteor.com | /bin/sh
+open $ curl https://install.meteor.com | /bin/sh
+sub
+node
+cd Desktop
+ls
+cd Desktop
+ls
+cd 3D-GIF/
+gittish
+Gittish
+run Gittish
+git clone
+git clone https://github.com/enjrolas/L3D-Hardware.git
+ls
+open L3D-Hardware/
+git clone https://github.com/enjrolas/L3D-Software.git
+ls
+cd L3D-Software/
+ls
+cd 3D-GIF/
+cd Desktop
+ls
+ls
+cd Desktop/
+cd 3D-GIF/
+ls
+open L3D-Software/
+ls
+cd Desktop
+cd
+cd Desktop/
+mkdir Pixel Ruler
+ls
+cd Desktop/
+cd tessel-love-fest/
+runnpm install climate-si7020
+run npm install climate-si7020
+npm install climate-si7020
+var tessel = require('tessel');
+var climatelib = require('climate-si7020');
+var climate = climatelib.use(tessel.port['A']);
+climate.on('ready', function(){
+  setInterval(function(){
+    climate.readHumidity(function(err, humid){
+      climate.readTemperature('f', function(err, temp){
+        console.log('Degrees:', temp.toFixed(4) + 'F', 'Humidity:', humid.toFixed(4) + '%RH');
+      });
+    });
+  }, 1000);
+});
+climate.on('error', function(err) {
+  console.log('error connecting module', err);
+});
+var tessel = require('tessel');
+var climatelib = require('climate-si7020');
+var climate = climatelib.use(tessel.port['A']);
+climate.on('ready', function(){
+  setInterval(function(){
+    climate.readHumidity(function(err, humid){
+      climate.readTemperature('f', function(err, temp){
+        console.log('Degrees:', temp.toFixed(4) + 'F', 'Humidity:', humid.toFixed(4) + '%RH');
+      });
+    });
+  }, 1000);
+});
+climate.on('error', function(err) {
+  console.log('error connecting module', err);
+});
+var tessel = require('tessel');
+var climatelib = require('climate-si7020');
+var climate = climatelib.use(tessel.port['A']);
+climate.on('ready', function(){
+  setInterval(function(){
+    climate.readHumidity(function(err, humid){
+      climate.readTemperature('f', function(err, temp){
+        console.log('Degrees:', temp.toFixed(4) + 'F', 'Humidity:', humid.toFixed(4) + '%RH');
+      });
+    });
+  }, 1000);
+});
+climate.on('error', function(err) {
+  console.log('error connecting module', err);
+});
+ls
+run climate/
+climate
+read climate
+read climate/
+var tessel = require('tessel');
+var climatelib = require('climate-si7020');
+var climate = climatelib.use(tessel.port['A']);
+climate.on('ready', function(){
+  setInterval(function(){
+    climate.readHumidity(function(err, humid){
+      climate.readTemperature('f', function(err, temp){
+        console.log('Degrees:', temp.toFixed(4) + 'F', 'Humidity:', humid.toFixed(4) + '%RH');
+      });
+    });
+  }, 1000);
+});
+climate.on('error', function(err) {
+  console.log('error connecting module', err);
+});
+var tessel = require('tessel');
+run climate/
+var tessel = require('tessel');
+run climate.js
+tessel run climate.js
+cd climate/
+tessel run Tessel_climate.js 
+cd Desktop
+ls
+cd tessel-love-fest/
+open tessel.js 
+ls
+open climate/
+// Any copyright is dedicated to the Public Domain.
+// http://creativecommons.org/publicdomain/zero/1.0/
+/*********************************************
+This basic climate example logs a stream
+of temperature and humidity to the console.
+*********************************************/
+var tessel = require('tessel');
+// if you're using a si7020 replace this lib with climate-si7020
+var climatelib = require('climate-si7020');
+
+var climate = climatelib.use(tessel.port['A']);
+
+
+climate.on('ready', function () {
+  console.log('Connected to si7020');
+
+  // Loop forever
+  setImmediate(function loop () {
+    climate.readTemperature('f', function (err, temp) {
+      climate.readHumidity(function (err, humid) {
+        console.log('Degrees:', parseFloat(temp.toFixed(4)) - 5 + 'F', 'Humidity:', humid.toFixed(4) + '%RH');
+        setTimeout(loop, 300);
+      });
+    });
+  });
+});
+
+climate.on('error', function(err) {
+  console.log('error connecting module', err);
+});
+cd Desktop/
+cd Gittish/
+ls
+Gitter
+Gittish
+run Gittish
+cd gitti.sh
+gitti.sh
+cd Desktop/Gittish/
+source gitti.sh
+git_copy
+git_add
+sub
+cd ~/Desktop/
+git clone https://github.com/enjrolas/L3D-Library.git
+rm -Fr L3D-Library/
+rm -fR L3D-Library/
+git clone https://github.com/enjrolas/L3D-Library.git
+open L3D-Library/
+Git_copy
+git_copy
+git_clone
+git copy
+git clone
+open
+open Gittish
+run Gittish
+run gitti.sh
+git add
+git copy
+copy
+run Gittish
+cd Gittish
+open gitti.sh
+source gitti.sh
+git add
+git copy
+git_copy
+cd Desktop
+ls
+cd Gittish
+ls
+run gitti.sh 
+gitti.sh
+open gitti.sh
+git_copy
+run gitti.sh
+git_add
+open Gittish
+cd gitti.sh
+cd Gittish
+gitti.sh
+GetFileInfo 
+sub
+ls
+cd Desktop
+ls
+cd Gittish
+src gitti.sh
+source gitti.sh
+git_copy
+echo "# Pixel_This" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/katiek/Pixel_This.git
+git push -u origin master
+cd Desktop
+open Desktop
+cd
+cd Pixel_This
+cd Desktop/Pixel_This/
+echo "# Pixel_This" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/katiek/Pixel_This.git
+git push -u origin master
+source gitti.sh
+git_add
+cd
+cd Desktop/Gittish/
+source gitti.sh
+git add
+git_add
+cd
+cd Desktop/Pixel_This/
+$ git add .
+git add .
+git commit -m 'second commit from introtohtml'
+git push origin master
+cd
+cd Desktop/Gittish/
+source gitti.sh
+git_add
+git add .
+git commit -m 'updating repo'
+git push origin master
+cd
+cd Desktop/Pixel_This/
+git add .
+git commit -m 'S3 files'
+git push origin master
+git remove 
+remove
+git changes
+git status
+git add .
+git checkout
+git commit -a
+git commit master origin
+git add .
+status
+git status
+git commit origin master
+git commit
+cd Desktop/Gittish/
+cd
+cd Desktop/Pixel_This/
+git status
+git commit master origin
+git commit
+git push -m 'delete file'
+git commit -m 'delete file'
+git push origin master
+git status
+git add .
+git status
+git status
+git add .
+git status
+git commit -m 'PDF test add'
+git push origin master
+git add .
+git commit -m 'pdf test'
+git push origin master
+git add .
+git commit -m 'pdf of first presentation and ai renderings for pixel grid rulers maybe'
+git push origin master
+git add .
+git commit -m 'links to PDFs of Ai and Ps'
+git push origin master
+cd Desktop
+ls
+sub
+sub
+cd Desktop/Gittish/
+src Gitti.sh
+source Gittish
+ls
+source gitti.sh
+git copy
+git clone
+git add
+git_copy
+git_copy
+cd html-css-js-gallery/
+ls
+cd Desktop
+cd~/Desktop/
+cd
+cd a
+ls
+cd Desktop/Gittish
+source Gitti.sh
+git_copy
+cd
+ls
+cd Desktop/
+cd Gittish/
+mv html-css-js-gallery/ Desktop
+mv Desktop html-css-js-gallery
+ls
+mv  html-css-js-gallery/ ~/Desktop/
+cd
+pwd
+cd Desktop/
+cd katiek.github.io/
+echo "Hello World" > index.html
+git add --all
+git commit -m "Initial commit"
+git push -u origin master
+ls
+sub index.html 
+ls
+git add --all
+git commit -m "html commit"
+git push -u origin master
+cd Desktop/a-story-in-pomes/
+ls
+open
+open -a Sublime
+open -a Sublime Text
+open -a Sublimetext
+cd Desktop/
+ls
+cd katiek.github.io/
+ls
+open index.html 
+open index.html ~Sublime Text
+open index.html ~/Sublime Text
+sub
+sub
+sub
+ls
+cd Desktop
+ls
+cd katiek.github.io/
+git add
+git add .
+git commit
+git commit origin master
+git commit master origin
+git status
+git add .
+git commit -m test
+git checkout
+git push origin master
+cd Desktop/katiek.github.io/
+git add .
+git commit -m "adding peoples page card folder"
+git push origin master
+cd Desktop/katiek.github.io/
+git add .
+git commit -m "adding new uuuuu.html"
+git push origin master

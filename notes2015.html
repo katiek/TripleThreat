@@ -10,21 +10,28 @@
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" type="text/css" href="css/swipebox.min.css">
     <link rel="stylesheet" type="text/css" href="css/spring2015.css">
+    <!-- first link to jQuery -->
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <!-- then we link to jQuery plugin Swipebox -->
+    <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    $('.swipebox').swipebox();
+    </script>
 </head>
 
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-custom">
             <div class="navbar-header">
-            
-            <a class="navbar-brand" href="index.html">DGMD E/S-15</a>
+                <a class="navbar-brand" href="index.html">DGMD E/S-15</a>
             </div>
             <ul class="nav navbar-nav">
                 <li><a id="home" href="index.html">Home</a></li>
@@ -37,45 +44,95 @@
     <div class="row content">
         <div class="col-sm-2 sidenav text-center">
             <p><a id="summary" href="spring2015.html">Summary</a></p>
-            <p><a id="notes" class="active" href="notes2015.html">Coursework & Notes</a></p>
-            <p><a id="final" href="project2015.html">Final Project</a></p>
-            <p><a id="ns" href="ns2015.html">Next Steps</a></p>
+            <p><a id="notes" class="active" href="notes2015.html">Coursework &amp; Notes</a></p>
+            <p><a id="final" href="project2015.html">Final Project &amp; Next Steps</a></p>
+            <p><a id="ns" href="ns2015.html">Quick Links</a></p>
         </div>
         <div class="col-sm-8 text-left">
             <div class="wrapper">
+                <h3><strong>Coursework &amp; Notes</strong></h3>
                 <section>
-                    <h3>Coursework & Notes</h3>
                     <p>
-                        https://github.com/katiek/Pixel_This
-                        https://github.com/katiek/Gittish
-                        The spring of 2015 marked a major change in my life. Less than one year prior, I had been living in New York City and just learned I had been suffering from living with an undiagnosed language-based learning disability. Learning this about myself, fully explained my whole life to me. Although I had graduated from college 12 years prior to that spring of 2015, I had not been able to make anything of my formal education and I had yet to learn what <em>I</em> enjoy doing, but now I knew the reason why. I was also given a second shot at figuring this out through going to graduate school and this time I was going to do things completely different than before. 
-                        </p>
-                        <p>
-                         I thought I might enjoy graphic design and I began looking at Harvard Extension School Digital Media Design course offerings. That was when I came across DGMDE-15. It was not a graphic design course, but I was immediately intrigued after reviewing the course syllabys. The course had taken a world I knew nothing about and often feared, <em>technology</em>, and made it familiar through something I knew well from the physical world. The approach, creating a digital gift for someone. I have enjoyed giving gifts and I had been a pretty great gift giver. That confidence was why I was able to move pass my fear and try something new and unexpected. I registered for my first course at Harvard Extension School unaware of the mind-blowing and eye-opening journey I was about to embark on.
-                    </p>
-                </section>
-                <section>
-                    <h3>Experience</h3>
-                    <p>
-                        The first day of class could have been the last day of class because, it was a success and worthwhile experience. I had no idea what to expect from myself or this course and that first day during class, we set up our "environment" for the semester. That included creating a Github account, connect to the server, and download various software needed onto our computers via the terminal. I thought to myself, "The terminal?!?! What the heck is that?" That's when I did the opposite of every other learning experience I've had. I did not keep the words to myself. I said them aloud whether it made sense or not and the most incredible thing happened. My instructors helped me find my terminal. I was completely in awe that there was this little window that controlled my computer and I could tell it to do things. My mind was blown.
+                        Since learning of the terminal in my computer, I was a bit obsessed. For the first few months, I was fascinated by it and almost all my conversations and studies were centered around it. The first programming language I was introduced to was Bash. My instructors showed me how to use it in the terminal, assuring me that I would not be able to do something one of them could not undo. With that in mind, I dubbed myself a <em>basher</em> and I began <em>bashing</em>.
                     </p>
                     <p>
-                        After installing software and connecting to my Github account via my terminal, I felt that there was no stopping me. I learned so much that first day. I learned that computers have more features than email or Microsoft Word and I learned I would have to be genuine and honest with myself, my instructors, and my peers in order to get the most out of my experience. That was what I did all semester and I could not have imagined what a positive and enlightening experience I would have. 
+                        From my interactions with the terminal and Bash, I became intrigued albeit frustrated by programming and the languages. I spoke with my instructors and they explained that programming languages are their <em>own</em> kind of languages. This prompted me dig deeper and I connected that to my personal relationship to the English language. I thought I would give myself a gift that semester and design a programming language that was more intuitive to <em>me</em>.
                     </p>
                     <p>
-                        The instructors made it so easy to connect with them and your peers. They had two weekend studio sessions all students could attend and if you asked to meet with them to work one-on-one, they would find the time. I tried to take advantage of all that they offered. I still needed to create a digital gift but I was still hung up on how bizarre programming languages are and I had so many questions about that. My instructors answered to the best of their ability, but the greatest thing they did was not dismiss my out-of-box thinking. I had no fear sharing my thoughts and it was these conversations that shaped my work throughout the semester.
+                        I began with a tutorial one of my instructors asked me to do to get familiar with Bash:
+                        <ul>
+                            <li style="list-style-type: none;"><b>How to run an interactive script in the terminal...</b></li>
+                            <ul>
+                                <li>Create a new text file in Sublime Text.</li>
+                                <li>Add the following lines of code to that file:</li>
+                                <li>
+                                    <kbd>echo "What is your name?"</kbd>
+                                </li>
+                                <li>
+                                    <kbd>read their_name</kbd>
+                                </li>
+                                <li>
+                                    <kbd>echo "Hi $their_name!"</kbd>
+                                </li>
+                                <li>Save the file. You can call it whatever you'd like, but should end the file name with .sh Let's say you call it file.sh</li>
+                                <li>Now, go to your terminal. Make sure that you cd into the directory where you saved the file (e.g. if you saved it to the Desktop, cd into Desktop) and then run the command:</li>
+                                <li>
+                                    <kbd>source file.sh</kbd>
+                                </li>
+                                <li>You should be asked what your name is in the terminal and be able to get a response to it.</li>
+                            </ul>
+                        </ul>
                     </p>
-                </section>
-                <footer>
-                    <!-- Copyright -->
-                    <div id="copyright" class="footer-copyright text-center py-3">© 2018 Copyright:
-                        <a href="https://katiek.github.io/">Katharine J. Korngold</a>
+                    <p>
+                        This was the beginning of what I thought would be the best final project and gift I could ever create, a language that would be useful in programming and one that I would understand. I had decided to call my language <a href="https://github.com/katiek/Gittish"><b>Gittish</b></a> and it was to combine Git and English into an intuitive language for those who may struggle with either or both of them. One would be able to access Gittish via running the command,
+                        <kbd><small>source gitti.sh</small></kbd> in the terminal.
+                    </p>
+                    <p>
+                        The greatest hurdle I would face was in gaining a thorough understanding of Git, the terminal, and Bash. I needed to learn why we need them, how did they get here, how they work, how they work together, what happens if we didn't have them, what are the most popular uses for all of them, and so on. My instructors sent videos about <a href="https://www.youtube.com/watch?v=U8GBXvdmHT4">git commands</a> and
+                        <a href=" https://www.youtube.com/watch?v=FQsBmnZvBdc">push/pull requests.</a> Along with extensive indepentent study, I met almost weekly, one-on-one, with an instructor to explore the new tech and languages being introduced and I attended all studios I could.
+                    </p>
+                    <p>
+                        During class, we were introduced to all kinds of technology and programming capabilities. I downloaded and set up my first text editor, <a href="http://www.sublimetext.com/">Sublime Text</a> to practice the <a href="https://github.com/dgmde15/HTML.CSS.JS-Intro">basics of HTML/CSS/JS from the course demo</a>. I set up my <a href="https://aws.amazon.com/s3/">AWS S3 account</a> although I had no idea what to do with an account like that. There was classtime to test out <a href="https://www.tessel.io/">a Tessel</a> running commands in the terminal as you can find in <a href="Spring2015/TerminalHistoryDGMDES15.txt">this copy of my terminal history</a>. We explored others digital gifts through forking their repositories like, <a href="https://github.com/dgmd/letterpress-clone">Letterpress</a> and <a href="https://github.com/dgmd/a-story-in-pomes">a-story-in-pomes</a>. We also got to play with an <a href="https://lookingglassfactory.com/product/l3d-cube/">L3D Cube</a> through an in-browser interface, <a href="https://github.com/dgmd/3D-GIF">3D-GIF</a>. All of these experiences led me to think of more digital gifts that I would jot down in my notebook.
+                    </p>
+                    <h4>Digital Gift Idea Gallery - Spring 2015</h4>
+                    <div id="gallery">
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea2.jpg" class="swipebox" title="RepConnect - Gift for My Father"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea2.jpg" alt="image" width="30%" height="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea3.jpg" class="swipebox" title="Mole Measure - Monthly Skin Monitoring App"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea3.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea4.jpg" class="swipebox" title="Why Mole Measure?"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea4.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea5.jpg" class="swipebox" title="More on Mole Measure"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea5.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea6.jpg" class="swipebox" title="Random Thought On Making Programming More Intuitive"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea6.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea7.jpg" class="swipebox" title="Confusing Language of Programming - Gittish to the Rescue!"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/idea7.jpg" alt="image" height="30%" width="30%"></a>
                     </div>
-                    <!-- Copyright -->
-                </footer>
+                    <p>
+                        That spring, I was a toddler who just learned to walk. I wanted to go everywhere and try everything. It was hard to keep up with myself but every so often I was able to go to my notebook and write down notes about what was going on and what I thought.
+                    </p>
+                    <h4>Notes</h4>
+                    <div id="gallery">
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note1.jpg" class="swipebox" title="Note 1"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note1.jpg" alt="image" width="30%" height="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Note/note2.jpg" class="swipebox" title="Note 2"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note2.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note3.jpg" class="swipebox" title="Note 3"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note3.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note4.jpg" class="swipebox" title="Note 4"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note4.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/ideas/Notes/note5.jpg" class="swipebox" title="Note 5"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note5.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note6.jpg" class="swipebox" title="Note 6"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note6.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note7.jpg" class="swipebox" title="Note 7"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note7.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note8.jpg" class="swipebox" title="Note 8"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note8.jpg" alt="image" height="30%" width="30%"></a>
+                        <a href="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note9.jpg" class="swipebox" title="Note 9"><img src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/Notes/note9.jpg" alt="image" height="30%" width="30%"></a>
+                    </div>
+                    <p>I didnt think anyone would be able to slow me down until one day, I did. I felt like I missed something and I asked an instructer if we could build a basic HTML webpage. That was when the semester changed course.
+                    </p>
+                </section>
             </div>
+            <footer>
+                <!-- Copyright -->
+                <div id="copyright" class="footer-copyright text-center py-3">© 2018 Copyright:
+                    <a href="https://katiek.github.io/">Katharine J. Korngold</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
         </div>
-        
+    </div>
 </body>
 
 </html>
+<!-- Notes from instructor about How terminal and bash work -->
+<!-- Hurray! As we've talked a little about, the terminal "understands" and "speaks" a programming language called bash (similar to how the browser "understands" javascript). Here are some notes I took based on a “Wait, how does the terminal work?!” convo we had: Some things to know about bash in the terminal... ls, cd, pwd, history, and many of the other commands you use at the terminal are all bash commands. The same way we name JavaScript files whateverTheNameIs.js, we call bash files whateverTheNameIs.sh In bash, a $ indicates something is a variable name. In order to "run" a bash script at the terminal, the command you use is "source". We did this when we added a new alias to your .bash_profile file. We ran the file by typing "source .bash_profile" so that the new alias would begin working immediately. e.g. if you run "man echo" at the terminal it will give you some explanation of how the bash command echo works. Here is an example function for “re-writing git” / Gittish we wrote together: function git_add { echo "You should not be storing large media files like photos, videos, audio, etc. in a git repository. Do you have any of those in this repository now? (Yes/No)" read answer if [ $answer = "Yes" ]; then echo "Please remove those large files and try 'git_add' again!" elif [ $answer = "No" ]; then git add . else echo "You typed $answer but we need you to let type either 'Yes' or 'No'. Please try 'git_add' again and provide one of those answers!" fi } https://github.com/katiek/Gittish.git -->

@@ -1,12 +1,13 @@
    .navbar-custom {
-       background-color: #fff !important;
+       background-color: #fff;
        color: #000;
-       font-family: 'Raleway', sans-serif !important;
+       font-family: 'Raleway', sans-serif;
        border-radius: 0;
    }
 
 
    .container-fluid {
+
        padding-right: 0;
        padding-left: 0;
    }
@@ -63,12 +64,12 @@
    p {
        font-family: 'Lato', sans-serif;
        color: #000;
-       font-size: 16px;
+       font-size: 18px;
    }
 
    ol {
        font-family: 'Lato', sans-serif;
-       font-size: 16px;
+       font-size: 18px;
    }
 
    blockquote p {
@@ -76,18 +77,51 @@
        font-size: 90%;
    }
 
-   blockquote footer {
-       font-size: 70%;
+   footer.blockquote-footer {
+       font-size: 80%;
+       text-align: right;
+       color: #f2078980;
+   }
+
+   cite a {
+       color: #f2078980;
+   }
+
+   #gallery {
+       background-color: white;
+       text-align: center;
+
+       width: 80%;
+   }
+
+   #swipebox-top-bar {
+       font-family: 'Raleway', sans-serif;
+       font-size: 25px;
+       font-weight: normal;
+       line-height: 50px;
+   }
+
+   h4 {
+       font-family: 'Raleway', sans-serif;
+   }
+
+   a.email {
+       color: #f20789;
    }
 
    #copyright {
-       padding-top: 20px;
+       padding-top: 20%;
        padding-bottom: 20px;
        font-family: 'Raleway', sans-serif;
    }
 
    #copyright a {
        color: #f20789;
+   }
+
+   .wrapper {
+       padding-left: 4%;
+       padding-right: 4%;
    }
    /* change the brand and text color */
    /*.navbar-custom .navbar-brand,
@@ -165,9 +199,9 @@
     color: pink;
 }*/
    /*body {
-		display: block;
-	margin-right: auto;
-	margin-left: auto;
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 header {
