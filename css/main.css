@@ -1,184 +1,239 @@
-   .navbar-custom {
-       background-color: #fff;
-       color: #000;
-       font-family: 'Raleway', sans-serif;
-       border-radius: 0;
-   }
+ .navbar-custom {
+     background-color: #fff !important;
+     color: #000;
+     font-family: 'Work Sans', sans-serif !important;
+     border-radius: 0;
+ }
 
 
-   .container-fluid {
+ .col-sm-2.sidenav.text-center {
+     visibility: hidden;
+ }
 
-       padding-right: 0;
-       padding-left: 0;
-   }
 
-   .col-sm-2.sidenav.text-center {
-       visibility: hidden;
-   }
+ .sidenav {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right: 0;
+     background-color: #f1f1f1;
+     height: 100%;
+     margin-right: 1%;
+ }
 
-   .sidenav {
-       padding-top: 20px;
-       padding-right: 0;
-       background-color: #f1f1f1;
-       height: 100%;
-   }
 
-   .navbar-custom .navbar-nav>li>a {
-       color: #000;
-   }
 
-   .navbar-custom .navbar-nav>.active>a {
-       color: #f20789;
-       background-color: transparent;
-   }
+ #summary.active {
+     color: #f20789;
+ }
 
-   .navbar-custom .navbar-nav>li>a:hover,
-   .navbar-custom .navbar-nav>li>a:focus,
-   .navbar-custom .navbar-nav>.active>a:hover,
-   .navbar-custom .navbar-nav>.active>a:focus,
-   .navbar-custom .navbar-nav>.open>a {
-       text-decoration: none;
-       background-color: #f2078950;
-   }
+ #notes.active {
+     color: #f20789;
+ }
 
-   .navbar-custom .navbar-brand {
-       color: #000;
-   }
+ #final.active {
+     color: #f20789;
+ }
 
-   .navbar-custom .navbar-toggle {
-       background-color: #eeeeee;
-   }
+ #ns.active {
+     color: #f20789;
+ }
+ /* .sidnav.active{
+    text-decoration: underline;
+   }*/
 
-   .navbar-custom .icon-bar {
-       background-color: #33aa33;
-   }
+ .navbar-custom .navbar-nav>li>a {
+     color: #000;
+ }
 
-   blockquote {
-       font-family: 'Raleway', sans-serif;
-       border-left: 5px solid #f2078950;
-       margin-left: 10%;
-       margin-right: 10%;
-       padding-left: 10px;
-   }
+ .navbar-custom .navbar-nav>.active>a {
+     color: #f20789;
+     background-color: transparent;
+ }
 
-   p {
-       font-family: 'Lato', sans-serif;
-       color: #000;
-       font-size: 18px;
-   }
+ .navbar-custom .navbar-nav>li>a:hover,
+ .navbar-custom .navbar-nav>li>a:focus,
+ .navbar-custom .navbar-nav>.active>a:hover,
+ .navbar-custom .navbar-nav>.active>a:focus,
+ .navbar-custom .navbar-nav>.open>a {
+     text-decoration: none;
+     background-color: #f2078950;
+ }
 
-   ol {
-       font-family: 'Lato', sans-serif;
-       font-size: 18px;
-   }
+ .navbar-custom .navbar-brand {
+     color: #000;
+     font-family: 'Work Sans', sans-serif;
+ }
 
-   blockquote p {
-       font-family: 'Raleway', sans-serif;
-       font-size: 90%;
-   }
+ .navbar-custom .navbar-toggle {
+     background-color: #eeeeee;
+ }
 
-   footer.blockquote-footer {
-       font-size: 80%;
-       text-align: right;
-       color: #f2078980;
-   }
+ .navbar-custom .icon-bar {
+     background-color: #33aa33;
+ }
 
-   cite a {
-       color: #f2078980;
-   }
+ blockquote {
+     font-family: 'Work Sans', sans-serif;
+     border-left: 5px solid #f2078950;
+     margin-left: 10%;
+     margin-right: 10%;
+     padding-left: 10px;
+ }
 
-   #gallery {
-       background-color: white;
-       text-align: center;
+ p {
+     font-family: 'Taviraj', serif;
+     color: #000;
+     font-size: 18px;
+ }
 
-       width: 80%;
-   }
+ ol {
+     font-family: 'Taviraj', serif;
+     font-size: 16px;
+ }
 
-   #swipebox-top-bar {
-       font-family: 'Raleway', sans-serif;
-       font-size: 25px;
-       font-weight: normal;
-       line-height: 50px;
-   }
+ h3 {
+     font-family: 'Work Sans', sans-serif;
+ }
 
-   h4 {
-       font-family: 'Raleway', sans-serif;
-   }
+ .wrapper {
+     padding-left: 4%;
+     padding-right: 4%;
+ }
 
-   a.email {
-       color: #f20789;
-   }
+ blockquote p {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 90%;
+ }
 
-   #copyright {
-       padding-top: 20%;
-       padding-bottom: 20px;
-       font-family: 'Raleway', sans-serif;
-   }
+ footer.blockquote-footer {
+     font-size: 80%;
+     text-align: right;
+     color: #f2078980;
+ }
 
-   #copyright a {
-       color: #f20789;
-   }
+ cite a {
+     color: #f2078980;
+ }
 
-   .wrapper {
-       padding-left: 4%;
-       padding-right: 4%;
-   }
-   /* change the brand and text color */
-   /*.navbar-custom .navbar-brand,
+ #copyright {
+     padding-top: 20%;
+     padding-bottom: 20px;
+     font-family: 'Work Sans', sans-serif;
+
+     /*margin-right: auto;
+       margin-left: auto;*/
+ }
+
+ #copyright a {
+     color: #f20789;
+ }
+
+ #gallery {
+     text-align: left;
+     background-color: white;
+     /*width: 90%;*/
+     padding-bottom: 1%;
+
+     margin-bottom: 1%;
+ }
+
+ #swipebox-top-bar {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 25px;
+     font-weight: normal;
+     line-height: 50px;
+ }
+
+ h4 {
+     font-family: 'Work Sans', sans-serif;
+     color: #4D666C;
+     text-decoration: underline;
+ }
+
+ ul {
+     font-family: 'Work Sans', sans-serif;
+     list-style: none;
+ }
+
+ img {
+     padding-right: 1%;
+
+     margin-bottom: 1%;
+ }
+ /*} // Class
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} // Usage as a mixin
+.element {
+    .center-block();
+}*/
+
+ a {
+     color: #B8B89C;
+ }
+
+ li.ns a {
+     /* color: #4D666C;*/
+     font-size: 18px;
+ }
+ /* change the brand and text color */
+ /*.navbar-custom .navbar-brand,
    .navbar-custom .navbar-text {
        color: #000 !important;
    }*/
-   /* change the link color */
-   /*.navbar-custom .navbar-nav .nav-link {
+ /* change the link color */
+ /*.navbar-custom .navbar-nav .nav-link {
        color: #f20789 !important;
    }*/
-   /* change the color of active or hovered links */
-   /*.navbar-custom .nav-item.active .nav-link,
+ /* change the color of active or hovered links */
+ /*.navbar-custom .nav-item.active .nav-link,
    .navbar-custom .nav-item.hover .nav-link {
        color: #f2078950 !important;
    }*/
-   /*ul {
+ /*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }*/
-   /*  .navbar-custom .navbar-brand {
+ /*  .navbar-custom .navbar-brand {
     color: #000;
 }
 .navbar-custom .navbar-text {
     color: #000;
 }*/
-   /* ul li.active {
+ /* ul li.active {
        background-color: #f2078950 !important;
    }
 
    li.hover {
        background-color: #000 !important;
    }*/
-   /*.navbar-custom {
+ /*.navbar-custom {
     background-color: #ff5500;
 }*/
-   /* change the brand and text color */
-   /*.navbar-custom .navbar-brand,
+ /* change the brand and text color */
+ /*.navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgba(255,255,255,.8);
 }*/
-   /* change the link color */
-   /*.navbar-custom .navbar-nav .nav-link {
+ /* change the link color */
+ /*.navbar-custom .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }*/
-   /* change the color of active or hovered links */
-   /*.navbar-custom .nav-item.active .nav-link,
+ /* change the color of active or hovered links */
+ /*.navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
 }*/
-   /*.navbar-custom {
+ /*.navbar-custom {
     background-color:#229922;
     color:#ffffff;
     border-radius:0;
 }*/
-   /* On small screens, set height to 'auto' for sidenav and grid */
-   /* @media screen and (max-width: 767px) {
+ /* On small screens, set height to 'auto' for sidenav and grid */
+ /* @media screen and (max-width: 767px) {
        .sidenav {
            height: auto;
            padding: 15px;
@@ -187,18 +242,18 @@
            height: auto;
        }
    }*/
-   /*.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+ /*.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
     background-color: #f2078955;
     color: #FFC0CB;
 }*/
-   /*.navbar-custom .navbar-nav .nav-item .nav-link {
+ /*.navbar-custom .navbar-nav .nav-item .nav-link {
     color: red;
 }
 .navbar-custom .navbar-nav .nav-item.active .nav-link,
 .navbar-custom .navbar-nav .nav-item:hover .nav-link {
     color: pink;
 }*/
-   /*body {
+ /*body {
     display: block;
   margin-right: auto;
   margin-left: auto;
