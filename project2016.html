@@ -3,22 +3,25 @@
 
 <head>
     <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DGMD E-15: Spring 2015</title>
-    <meta name="description" content="Spring 2015 — Creative Explorations in Screen-Based and Physical Computing">
+    <title>DGMD E-15: Spring 2016</title>
+    <meta name="description" content="Spring 2016 — Creative Explorations in Screen-Based and Physical Computing">
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-   <link href="https://fonts.googleapis.com/css?family=Taviraj|Work+Sans" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css?family=Taviraj|Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/swipebox.min.css">
     <link rel="stylesheet" type="text/css" href="css/spring2015.css">
+    <!-- first link to jQuery -->
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <!-- then we link to jQuery plugin Swipebox -->
+    <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    $('.swipebox').swipebox();
+    </script>
 </head>
 
 <body>
@@ -38,65 +41,61 @@
     <div class="row content">
         <div class="col-sm-2 sidenav text-center">
             <p><a id="summary" href="spring2016.html">Summary</a></p>
-            <p><a id="notes" href="notes2016.html">Coursework &amp Notes</a></p>
-            <p><a id="final" class="active" href="project2016.html">Final Project &amp Next Steps</a></p>
+            <p><a id="notes" href="notes2016.html">Coursework &amp; Notes</a></p>
+            <p><a id="final" class="active" href="project2016.html">Final Project &amp; Next Steps</a></p>
             <p><a id="ns" href="ns2016.html">Quick Links</a></p>
         </div>
         <div class="col-sm-8 text-left">
             <div class="wrapper">
                 <section>
+                    <h3>Final Project</h3>
                     <p>
-                        <li>https://s3.amazonaws.com/katiek/pixelthis_one.html</li>
-                        <li>https://s3.amazonaws.com/katiek/pixelthis_now.js</li>
-                        <li>https://s3.amazonaws.com/katiek/Binder4.pdf</li>
-                        http://katiek.github.io/Bass_Lady/ http://katiek.github.io/Pixel_Ruler/ http://katiek.github.io/SkinGraph/ http://katiek.github.io/square_peeps/ https://github.com/katiek/Gittish Digital office depot
+                        This semester was the epitome of complex design issues arrising from a rather simple design idea. My idea to create a large canvas with infinate black and white clickable squares, had a slew of programming issues to overcome.
                     </p>
+                    <h4>Issue Gallery</h4>
+                    <div id="gallery">
+                        <a href="img/Screenshot%202016-04-10%2010.54.59.png" class="swipebox" title="white lines between black squares"><img src="img/Screenshot%202016-04-10%2010.54.59.png" alt="image" width="40%" height="40%"></a>
+                        <a href="img/Screenshot%202016-04-13%2017.38.06.png" class="swipebox" title="no white lines, lookin' good..."><img src="img/Screenshot%202016-04-13%2017.38.06.png" alt="image" height="40%" width="40%"></a>
+                        <a href="img/Screenshot%202016-04-13%2017.37.30.png" class="swipebox" title="...spoke too soon"><img src="img/Screenshot%202016-04-13%2017.37.30.png" alt="image" height="40%" width="40%"></a>
+                        <a href="img/Screenshot%202016-05-12%2021.31.44.png" class="swipebox" title="double black dash lines in between white squares"><img src="img/Screenshot%202016-05-12%2021.31.44.png" alt="image" width="40%" height="40%"></a>
+                    </div>
                 </section>
-                <blockquote class="blockquote text-center">
-                    <p class="mb-0">
-                        "...course introduces computing as an expressive medium. We prototype, exhibit, and critique interactive, computational stories, art, and games presented as web applications and physical prototypes."
-                    </p>
-                    <footer class="blockquote-footer">DGMD E/S-15 Course Website,
-                        <cite title="Source Title">http://dgmd.github.io/about/</cite>
-                    </footer>
-                </blockquote>
+                <!-- <a href="Spring%202016/squarepeeps480.mov" class="swipebox" title="canvas won't scroll"> -->
+                <!-- <video width="400" controls Autoplay=autoplay src="Spring%202016/squarepeeps480.mov" type="video/mp4">
+                            </video> -->
+                <!-- <video width="320" height="240" controls>
+    <source src="" class="swipebox" type="video/mov">
+    <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg"> Your browser does not support the video tag.
+</video> -->
+                <!-- <video width="400" controls Autoplay=autoplay>
+        <source src="https://s3.amazonaws.com/katiek/DGMD_E_S_15/squarepeeps480.mov" type="video/mp4">
+    </video> -->
+                <h4>Video: canvas cannot scroll</h4>
                 <section>
-                    <p>
-                        As a student of <i>Creative Explorations in Screen-Based and Physical Computing</i>, you are put in charge of where your coursework takes you and when one takes this course, you embark on a brand new, immersive study in design, developement and technology. It is impossible to <em>repeat subject matter</em> through taking this course multiple times.
-                    </p>
-                    <p>
-                        A student's work and studies are based off of the student's current knowledge at the time. Therefore, each successful completion of my studies each instance I took this course, I walked away with a <em>new</em> interactive and deployable web application, gained <em>new</em> and extensive knowledge, and <em>new</em> excitement for furture Digital Media Design work at Harvard and beyond.
-                    </p>
+                    <video width="400" controls Autoplay=autoplay>
+                        <source src="Spring%202016/squarepeeps480.mov" type="video/mp4">
+                    </video>
                 </section>
-                <blockquote class="blockquote text-center">
-                    <p class="mb-0">
-                        "A semester might not seem like a very long time when you want to build something, especially if you don't have much experience using these tools and technologies. It's possible, but it requires that you deeply immerse yourself in the processes of design and development over the four months."</p>
-                    <footer class="blockquote-footer">DGMD E/S-15 Course Website,
-                        <cite title="Source Title">http://dgmd.github.io/about/</cite>
-                    </footer>
-                </blockquote>
-                <section>
-                    <p>
-                        To be successful in this course, a student must be willing to partake in extensive work and study in and out of the physical classroom. The onus is on the student and the student must figure out all the steps necessary in order to produce their own personal final project and presentation.
-                    </p>
-                    <p>
-                        My portfolio is broken into three parts, one for each semester I took this course. From there you will be able to explore and review my process and projects via my:
-                    </p>
-                    <ol>
-                        <li>General Notes</li>
-                        <li>Design Thinking</li>
-                        <li>Small-Scale Designs</li>
-                        <li>Final Projects &amp; Reflections</li>
-                        <li>Next Steps</li>
-                    </ol>
-                    <p>
-                        Thank you in advance for your time and consideration in reviewing my portfolio.
-                    </p>
-                </section>
+                <p>
+                    Some of the most challanging issues to troubleshoot were dealing with the canvas and window size. As you can see in the "Issue Gallery" one major hurdle was making the square fill the canvas no matter how big you made the window, but making sure they didn’t shift when you did that. Adding the click and drag feature was a nice feature too. In the end, <a href="http://katiek.github.io/square_peeps/">Square Peeps</a> was challenging, but completely worth it.
+                </p>
+                <p>
+                    Like I said in my notes, I wanted to design things better. Avoid redesign and I had this lingering desire to tweak my Pixel Ruler for the final time. I wanted to be able to look at it and be proud. I wanted it to be something others would not crindge when they saw the colors. I wanted to make it a design you would not believe someone had designed. And so I began the surprisingly messy task of changing the ruler to grayscale. I could not ever have imagined some of the things that I would need to complete the change. For example a <a href="https://drive.google.com/open?id=10t3dZg03Bz5jUsl_4zgbgz4_KUQdRhKgiueWrCGgLvI ">pixel ruler hue calculation table</a>.
+                </p>
+                <p>
+                    Through it all I never felt I would not reach my goal. It is one of the many reasons why I love DGMD E/S-15. You cannot predict what will happen and even when you feel there is no solution, you have three people helping you reach your goal with unwavering support. This may not have been my final project that spring but I felt an incredible feeling of accomplishment after the <a href="http://katiek.github.io/Pixel_Ruler/ ">Pixel Ruler</a> was in grayscale.
+                </p>
+                <h3>Next Steps</h3>
+                <p>
+                    Well the next major step is to officially start graduate school at HES. I was accepted into the Digital Media Design master program during spring semester 2016. I also plan to continue my own version of Creative Exploration of Screen-Based and Physical Computing. It will probably look a lot like DGMD E/S-15. Bite off more than you can chew, knowing you have built a strong support system through this course. I will continue to ask questions and I will stay forever curious which seems to uncover the most interesting things. I plan to look into more UX/UI design and remember to always be empathetic.
+                </p>
+                <p>
+                    I will revisit projects I have done to see how the programming I have done can be built upon. I like that you can take code from one project and put it into another and all of a sudden, you have something completely different. I think the greatest thing I have learned is that you have to continue to do something. That is when learning and growth happens. Sometimes you need to start on the wrong project in order to find the right project.
+                </p>
                 <footer>
                     <!-- Copyright -->
-                    <div id="copyright" class="footer-copyright text-center py-3">© 2018 Copyright:
-                        <a href="https://katiek.github.io/">Katharine J. Korngold</a>
+                    <div id="copyright " class="footer-copyright text-center py-3 ">© 2018 Copyright:
+                        <a href="https://katiek.github.io/ ">Katharine J. Korngold</a>
                     </div>
                     <!-- Copyright -->
                 </footer>
@@ -110,14 +109,14 @@
     
     <header>
         <h2>
-        <a href="index.html">Spring 2015</a>
+        <a href="index.html ">Spring 2015</a>
         </h2>
         <nav>
             <ul>
-            <li><a href="./Projects">Projects</a></li>
-            <li><a href="./Reflections">Reflections</a></li>
-            <li><a href="./Notes">Notes</a></li>
-            <li><a href="./NextSteps">Next<span> + </span>Steps</a></li>
+            <li><a href="./Projects ">Projects</a></li>
+            <li><a href="./Reflections ">Reflections</a></li>
+            <li><a href="./Notes ">Notes</a></li>
+            <li><a href="./NextSteps ">Next<span> + </span>Steps</a></li>
         </ul>
         </nav>
     </header>
