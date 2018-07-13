@@ -6,13 +6,10 @@
        font-weight: normal;
    }
 
-
    .container-fluid {
        padding-right: 0;
        padding-left: 0;
    }
-
-
 
    .sidenav {
        padding-top: 20px;
@@ -138,13 +135,10 @@
    }
 
    #copyright {
+       color: black;
        padding-top: 20%;
        padding-bottom: 20px;
        font-family: 'Work Sans', sans-serif;
-
-
-       /*margin-right: auto;
-       margin-left: auto;*/
    }
 
    #copyright a {
@@ -158,7 +152,6 @@
        background-color: white;
        /*width: 90%;*/
        padding-bottom: 1%;
-
        margin-bottom: 1%;
    }
 
@@ -198,7 +191,8 @@
    a {
        color: #4d666c;
        font-weight: bold;
-       text-shadow: 1px 1px 1px #4D666C60;
+       text-shadow: 1px 1px 1px;
+       opacity: 0.8;
    }
 
    li.ns a {
